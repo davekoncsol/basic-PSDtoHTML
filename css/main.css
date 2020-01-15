@@ -1,0 +1,188 @@
+html * {
+    margin: 0px;
+
+    font: inherit;
+}
+
+.orange-text {
+    color: rgb(255, 98, 0);
+}
+
+.dark-orange {
+    color:rgb(226,79,0)
+}
+
+.white-text {
+    color: white;
+}
+
+.bebas {
+    font-family: 'BebasNeueRegular';
+}
+
+.width {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.width h2 {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#top {
+    height: 35px;
+    background-color: rgb(255, 98, 0);
+    display: flex;
+    font-size: 19px;
+
+}
+
+.margin-left {
+    margin-left: 24px;
+}
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+#login {
+    transform: translate(100px,0px);
+}
+
+.width div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#nav {
+    height: 109px;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+
+
+}
+
+#nav .width div h1 {
+    font-size: 54px;
+}
+
+#titles {
+    width: 480px;
+}
+
+#titles h3 {
+    font-size: 17px!important;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.flexstart {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-top: 45px;
+    margin-bottom: 40px;
+
+}
+
+form {
+    height: 300px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+input {
+    width: 464px;
+    margin: 0px;
+    height: 30px;
+    background-color: rgb(246,246,246);
+    border: solid 1px rgb(237,237,237);
+    font-family: 'Ubuntu';
+    color: rgb(135,135,135);
+    
+    margin-bottom: 11px;
+    
+
+}
+
+textarea {
+    width: 464px;
+    height: 109px;
+    background-color: rgb(246,246,246);
+    border: solid 1px rgb(237,237,237);
+    font-family: 'Ubuntu';
+
+}
+
+#phone{
+    margin-right: 10px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 500px;
+    margin-top: 45px;
+}
+
+
+#contact-us,
+#reach-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: 310px;
+}
+
+#reach-us {
+    width: 470px;
+}
+
+#reach-us p {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:rgb(89, 89, 89)
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 30px;
+}
+
+.header p {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    margin-bottom: 62px;
+    margin-top: 10px;
+    color:rgb(135,135,135)
+}
+
+hr {
+    height: 7px;
+    background-color: rgb(88, 88, 88);
+    margin-bottom: 19px;
+    margin-top: 14px;
+}
+
+button {
+    width: 98px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px!important;
+    color: white;
+    background-color: rgb(255,98,0);
+    font-family: 'Open Sans';
+    font-weight: bold;
+
+    margin-top: 24px;
+}
